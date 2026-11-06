@@ -33,6 +33,8 @@ thunderstore:
       label: "AI Generated"
     mods:
       label: "Mods"
+    modpacks:
+      label: "Modpacks"
     audio:
       label: "Audio"
     npc:
@@ -43,6 +45,14 @@ thunderstore:
       label: "Misc"
     utility:
       label: "Utility"
-  sections: {}
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
   discordUrl: "https://discord.gg/BONELAB"
   shortDescription: "BONELAB is an experimental physics action game. Explore a mysterious lab filled with weapons, enemies, challenges and secrets. Escape your reality, or wreak havoc. No wrong answers."

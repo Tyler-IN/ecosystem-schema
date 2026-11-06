@@ -44,7 +44,10 @@ thunderstore:
       label: "AI Generated"
   sections:
     mods:
-      name: "Mods"
+      name: "Mods (excluding AI)"
+      excludeCategories: ["modpacks","soundpacks","ai-generated"]
+    mods-including-ai:
+      name: "Mods (including AI)"
       excludeCategories: ["modpacks","soundpacks"]
     soundpacks:
       name: "Sound Packs"

@@ -28,7 +28,29 @@ thunderstore:
     audio:
       label: "Audio"
     clans:
-      label: "Clan"
+      label: "Clans"
+    quality-of-life:
+      label: "Quality of Life"
+    meme:
+      label: "Meme"
+    cosmetic:
+      label: "Cosmetic"
+    ui:
+      label: "UI"
+    translation:
+      label: "Translation"
+    merchants:
+      label: "Merchants"
+    events:
+      label: "Events"
+    battles:
+      label: "Battles"
+    mutators:
+      label: "Mutators"
+    balance:
+      label: "Balance"
+    ai-generated:
+      label: "AI Generated"
   sections:
     mods:
       name: "Mods"
@@ -38,7 +60,7 @@ thunderstore:
       name: "Modpacks"
       requireCategories:
         - "modpacks"
-  wikiUrl: "https://github.com/Monster-Train-2-Modding-Group"
-  discordUrl: "https://discord.gg/Rqz4vnGa"
+  wikiUrl: "https://github.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/wiki"
+  discordUrl: "https://discord.gg/6qBCCMU8vP"
   autolistPackageIds:
     - "BepInEx-BepInExPack"

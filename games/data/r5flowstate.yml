@@ -44,7 +44,15 @@ thunderstore:
       label: "QoL"
     ai-generated:
       label: "AI Generated"
-  sections: {}
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpack"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpack"
   wikiUrl: "https://r5flowstate.org/host"
   discordUrl: "https://discord.gg/REQmKk35Kx"
   shortDescription: "A modded Apex Legends client based on the S21 retail build + our own updated dedicated server that comes from the Season 3 server."

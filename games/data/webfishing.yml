@@ -15,6 +15,8 @@ thunderstore:
   categories:
     mods:
       label: "Mods"
+    modpacks:
+      label: "Modpacks"
     cosmetics:
       label: "Cosmetics"
     tools:
@@ -33,7 +35,15 @@ thunderstore:
       label: "Species"
     maps:
       label: "Maps"
-  sections: {}
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
   wikiUrl: "https://notnite.github.io/webfishing-mod-wiki/"
   discordUrl: "https://discord.gg/PMdFCrJnUb"
   autolistPackageIds: []

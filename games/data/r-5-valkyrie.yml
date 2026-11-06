@@ -42,7 +42,15 @@ thunderstore:
       label: "Animation"
     qol:
       label: "QoL"
-  sections: {}
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpack"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpack"
   wikiUrl: "https://playvalkyrie.org/docs"
   discordUrl: "https://discord.gg/GcJSMUGJyD"
   autolistPackageIds: []

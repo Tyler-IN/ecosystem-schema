@@ -49,7 +49,15 @@ thunderstore:
       label: "Scene File"
     ai-generated:
       label: "AI Generated"
-  sections: {}
+  sections:
+    mods:
+      name: "Mods"
+      excludeCategories:
+        - "modpacks"
+    modpacks:
+      name: "Modpacks"
+      requireCategories:
+        - "modpacks"
   discordUrl: "https://discord.gg/Hggg7wh"
   wikiUrl: "https://h3vrmodding.miraheze.org/wiki/Main_Page"
   shortDescription: "Do you like hot dogs? How about horseshoes? Hand grenades? (everyone likes hand grenades) Anyway, we've got all that, and guns. SO MANY GUNS. So if you like ordnance, meat, and far too many groan-worthy puns, this is the VR sandbox game for you."
