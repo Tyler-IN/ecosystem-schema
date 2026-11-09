@@ -2,13 +2,19 @@ uuid: "6ed53e8b-e74b-49d5-8418-a1efbc279751"
 label: "def-jam-fight-for-ny-recompiled"
 meta:
   displayName: "Def Jam: Fight for NY Recompiled"
-  iconUrl: null
+  iconUrl: "def-jam-fight-for-ny-recompiled/def-jam-fight-for-ny-recompiled-cover-360x480.webp"
 distributions:
   - platform: "other"
     identifier: null
 r2modman: null
 thunderstore:
   displayName: "Def Jam: Fight for NY Recompiled"
+  listed: true
+  meta:
+    icon: "def-jam-fight-for-ny-recompiled/def-jam-fight-for-ny-recompiled-icon-192x192.webp"
+    cover: "def-jam-fight-for-ny-recompiled/def-jam-fight-for-ny-recompiled-cover-360x480.webp"
+    background: "def-jam-fight-for-ny-recompiled/def-jam-fight-for-ny-recompiled-bg-1920x1080.webp"
+    hero: "def-jam-fight-for-ny-recompiled/def-jam-fight-for-ny-recompiled-bg-1920x620.webp"
   categories:
     mods:
       label: "Mods"
