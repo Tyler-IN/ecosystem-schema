@@ -9,6 +9,8 @@ r2modman:
     distributions:
       - platform: "steam"
         identifier: "1418630"
+      - platform: "other"
+        identifier: null
     steamFolderName: "Dread Hunger"
     dataFolderName: "DreadHunger"
     exeNames:
